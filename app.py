@@ -37,7 +37,7 @@ SECRET PHRASE (must appear on the app page): ISOM5160-HW2-SMS
 # Q1. Who is the primary business user of this app?
 #     (one short sentence; e.g., an employee or a security analyst reviewing
 #      inbound SMS for spam or scam-like messages)
-#   YOUR_ANSWER: (We will fill this in after running the app)
+#   YOUR_ANSWER: An enterprise security analyst or employee who needs to quickly triage suspicious inbound SMS messages for potential spam or smishing.
 #
 # Q2. Look at the accuracy from your 100-sample test. Is accuracy enough
 #     for a business to rely on this app, and why or why not?
@@ -45,7 +45,7 @@ SECRET PHRASE (must appear on the app page): ISOM5160-HW2-SMS
 #     YOUR app run. Comment on the cost of a false positive (blocking a
 #     legitimate SMS, such as a bank or one-time code message) versus a
 #     false negative (missing a spam or scam-like message).
-#   YOUR_ANSWER: (We will fill this in after running the app)
+#   YOUR_ANSWER: Although my 100-sample test achieved 99.00% accuracy, accuracy alone is not enough for a business to rely on this app automatically. This is only a small 100-message sample, and real-world smishing tactics evolve constantly. A false positive could block a critical legitimate SMS such as a bank alert or one-time verification code, disrupting operations, while a false negative could let a phishing link reach an employee and cause a security breach. Therefore, this tool should be used as a triage aid with human review rather than a standalone automated blocker.
 #
 # =============================================================================
 
